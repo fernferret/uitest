@@ -1,15 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <UCard class="mx-auto max-w-xl text-center">
+    <h1 class="text-2xl font-medium text-highlighted">This is an about page</h1>
+  </UCard>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
