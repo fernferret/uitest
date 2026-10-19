@@ -6,6 +6,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import ui from '@nuxt/ui/vue-plugin'
+import { initTheme } from './composables/useTheme'
+
+initTheme()
 
 const app = createApp(App)
 

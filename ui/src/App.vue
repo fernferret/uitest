@@ -18,7 +18,7 @@ const items: NavigationMenuItem[] = [
       <UNavigationMenu :items="items" />
 
       <template #right>
-        <UColorModeButton />
+        <ThemePicker />
       </template>
     </UHeader>
 
