@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ExternalLink from './ExternalLink.vue'
+
 defineProps<{
   msg: string
 }>()
@@ -9,9 +11,9 @@ defineProps<{
     <h1 class="text-4xl font-medium text-primary">{{ msg }}</h1>
     <h3 class="text-lg text-muted">
       You’ve successfully created a project with
-      <ULink to="https://vite.dev/" target="_blank">Vite</ULink> +
-      <ULink to="https://vuejs.org/" target="_blank">Vue 3</ULink> +
-      <ULink to="https://ui.nuxt.com/" target="_blank">Nuxt UI</ULink>. What's next?
+      <ExternalLink to="https://vite.dev/">Vite</ExternalLink> +
+      <ExternalLink to="https://vuejs.org/">Vue 3</ExternalLink> +
+      <ExternalLink to="https://ui.nuxt.com/">Nuxt UI</ExternalLink>. What's next?
     </h3>
   </div>
 </template>
